@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |spec|
 
-  spec.name         = "TTCycleBanner"
-  spec.version      = "0.0.2"
+  spec.name         = "TTTCycleBanner"
+  spec.version      = "0.0.3"
   spec.license          = { :type => 'MIT', :file => 'LICENSE' }
   spec.summary      = "A simple cycle banner with image and text"
   spec.description  = <<-DESC
@@ -20,7 +20,7 @@ Pod::Spec.new do |spec|
   spec.author             = { "rollingstoneW" => "190268198@qq.com" }
   spec.platform     = :ios, "8.0"
 
-  spec.source       = { :git => "https://github.com/rollingstoneW/TTCycleBanner.git", :tag => spec.version.to_s }
+  spec.source       = { :git => "https://github.com/T-Grail/TTTCycleBanner.git", :tag => spec.version.to_s }
   spec.source_files  = "Classes", "TTCycleBanner/TTCycleBanner/*.{h,m}"
 
   spec.frameworks = 'UIKit', 'Foundation'
